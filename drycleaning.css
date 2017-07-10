@@ -6,10 +6,36 @@ html,body {
     background-color: #cbffcb;
 }
 
+#header {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+h1, h2 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 4em;
+}
 
 .fluid-container {
     margin: 0 10%;
 }
+
+li {
+    display: inline-block;
+	float: left;
+	margin-left: 15%;
+    margin-right: 10%;
+	vertical-align: middle;
+    font-size: 2em;
+}
+
 
 .contactform {
     background: url(https://images.unsplash.com/photo-1481495278953-0967c9759b78?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
@@ -24,4 +50,5 @@ html,body {
    width: 25%;
    margin-left: auto;
    margin-right: auto;
+
 }
