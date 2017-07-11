@@ -58,20 +58,20 @@ li {
 
 .pricelist {
     background: url(https://images.unsplash.com/photo-1490707967831-1fd9b48e40e2?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     width: 100%;
     vertical-align: center;
     text-align: center;
-    padding: 1% 25%;
+    padding: 0 25% 1% 25%;
 }
 
 .plist {
-    text-align: left;
+    text-align: center;
 }
 
 .pants {
-    text-align: left;
+    text-align: center;
 }
 
 .contactform {
