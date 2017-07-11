@@ -13,6 +13,15 @@ html,body {
     background-color: #cbffcb;
 }
 
+.goToTop {
+  position: fixed;
+  top: 0;
+  height: 70px;
+  width: 100%;
+  z-index: 1;
+}
+
+
 #header {
     text-align: center;
     margin-bottom: 2%;
@@ -92,11 +101,6 @@ li {
 
 }
 
-#cont {
-
-    padding-bottom: 1%;
-}
-
 i {
     color: #FF2EFF;
     padding: 0 1.5%;
@@ -106,3 +110,5 @@ i {
      margin-top: 2%;
      text-align: center;
  }
+
+ 
