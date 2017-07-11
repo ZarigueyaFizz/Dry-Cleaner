@@ -45,6 +45,8 @@ h2 {
     font-size: 4em;
 }
 
+a.anchor{display: block; position: relative; top: -160px; visibility: hidden;}
+
 .fluid-container {
     margin: 0 6%;
 }
