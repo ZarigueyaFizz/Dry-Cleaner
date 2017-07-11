@@ -2,6 +2,12 @@ html,body {
   height:100%;
 }
 
+#all {
+    width: 100%;
+    height: auto;
+    vertical-align: center;
+}
+
 .navbar {
     background-color: #cbffcb;
 }
@@ -27,28 +33,50 @@ h2 {
     margin: 0 10%;
 }
 
+
+ul {
+list-style: none;
+padding: 0;
+width:900px;
+margin:auto;
+text-align: center;
+}
+
 li {
+    margin: 0 1em;
     display: inline-block;
-	float: left;
-	margin-left: 15%;
-    margin-right: 10%;
-	vertical-align: middle;
+    text-align: center;
     font-size: 2em;
 }
 
 
 .contactform {
-    background: url(https://images.unsplash.com/photo-1481495278953-0967c9759b78?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
-    text-align: center;
-    vertical-align: center;
-    background-position: absolute;
+    background: url(https://images.unsplash.com/photo-1459204137123-238c569e22bd?dpr=1&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop=);
+    background-position: center;
     background-repeat: no-repeat;
-    width: auto;
+    width: 100%;
+    vertical-align: center;
+    text-align: center;
+    padding: 1% 25%;
 }
 
 .form-group {
-   width: 25%;
+   width: 50%;
    margin-left: auto;
    margin-right: auto;
+   margin-bottom: 2%;
 
+}
+
+#footer {
+    margin-top: 2%;
+}
+#cont {
+    color: black;
+    padding-bottom: 1%;
+}
+
+i {
+    color: #FF2EFF;
+    padding: 0 1.5%;
 }
