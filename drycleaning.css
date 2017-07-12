@@ -10,7 +10,7 @@ html,body {
 }
 
 .navbar {
-    background-color: #cbffcb;
+    background-color: rgba(203,255,203,0.85);
 }
 
 .goToTop {
@@ -33,19 +33,25 @@ html,body {
 }
 
 h1, h2 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Dancing Script', cursive;
     
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 7em;
 }
 
 h2 {
-    font-size: 4em;
+    font-size: 5em;
 }
 
-a.anchor{display: block; position: relative; top: -160px; visibility: hidden;}
+#apparel {
+    line-height: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3.5em;
+}
+
+a.anchor{display: block; position: relative; top: -150px; visibility: hidden;}
 
 .fluid-container {
     margin: 0 6%;
@@ -74,7 +80,7 @@ li {
     width: 100%;
     vertical-align: center;
     text-align: center;
-    padding: 0 25% 1% 25%;
+    padding: 1% 25% 1% 25%;
 }
 
 .plist {
@@ -83,6 +89,23 @@ li {
 
 .pants {
     text-align: center;
+}
+
+.aboutus {
+    width: 100%;
+    vertical-align: center;
+    text-align: center;
+    padding: 1% 0;
+}
+
+#girls {
+    float: left;
+    margin-right: 2%
+}
+
+#ourstory {
+    text-align: left;
+   
 }
 
 .contactform {
