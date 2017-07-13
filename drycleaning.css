@@ -9,9 +9,6 @@ html,body {
     vertical-align: center;
 }
 
-.navbar {
-    background-color: rgba(203,255,203,0.85);
-}
 
 .goToTop {
   position: fixed;
@@ -22,15 +19,17 @@ html,body {
 }
 
 
+
 #header {
+    vertical-align: center;
     text-align: center;
+    padding-left: 13%;
+    padding-right: 13%;
+    margin-top: 8%;
     margin-bottom: 2%;
 }
 
-.logo {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
+
 
 h1, h2 {
     font-family: 'Dancing Script', cursive;
@@ -45,13 +44,19 @@ h2 {
     font-size: 5em;
 }
 
+.insertbar {
+    height: 25px;
+    background: rgba(203,255,203,0.85);
+    margin-bottom: 2%;
+}
+
 #apparel {
     line-height: 50px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 3.5em;
 }
 
-a.anchor{display: block; position: relative; top: -140px; visibility: hidden;}
+a.anchor{display: block; position: relative; top: -160px; visibility: hidden;}
 
 .container-fluid {
     margin: 0 6%;
@@ -61,20 +66,27 @@ a.anchor{display: block; position: relative; top: -140px; visibility: hidden;}
     background-color: hotpink;
 }
 
+
+
+.navbar {
+    background-color: rgba(203,255,203,0.85);
+    margin-bottom: 2%;
+}
+
 ul {
 list-style: none;
 padding: 0;
-width:900px;
-margin:auto;
-text-align: center;
+width:auto;
+margin: auto;
 }
 
 li {
     margin: 0 1em;
-    display: inline-block;
+    display: inline;
     text-align: center;
     font-size: 2em;
 }
+
 
 #servicesoffered {
     padding: 1% 1%;
@@ -117,7 +129,6 @@ li {
 }
 
 #ourstory {
-    float-right;
     text-align: left;
    
 }
