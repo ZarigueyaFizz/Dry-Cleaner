@@ -140,15 +140,19 @@ li {
     width: 100%;
     vertical-align: center;
     text-align: center;
-    padding: 1% 25%;
+    padding: 1% 15%;
 }
 
 .form-group {
-   width: 90%;
+   width: 56%;
    margin-left: auto;
    margin-right: auto;
    margin-bottom: 2%;
 
+}
+
+.custom-select{
+    width: 100%;
 }
 
 i {
